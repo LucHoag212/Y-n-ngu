@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0e0808;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 100px;
+    color: rgb(212, 250, 0);
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 40px;
+    font-family: Brush Script MT;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+button {
+    border: none;
+    background-color: #fdfdfd;
+    color: #fff;
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    text-decoration-line: none;
+    text-decoration-skip: none;
+}
+
+button:hover {
+    background-color: #5162f5;
+}
+
+body {
+    background-color: #000000;
+    animation: myAnimation 5s infinite;
+}
+
+@keyframes myAnimation {
+    0% {
+        background-color: #5c5c5c;
+    }
+    25% {
+        background-color: #ff6347;
+    }
+    50% {
+        background-color: #ff0000;
+    }
+    75% {
+        background-color: #f56a51;
+    }
+    100% {
+        background-color: #80136d;
+    }
+}
+
+h1 {
+    color: red;
+    animation: color-changing 1s ease-in-out infinite;
+}
+
+@keyframes color-changing {
+    0% {
+        color: rgb(253, 252, 252);
+    }
+    50% {
+        color: orange;
+    }
+    100% {
+        color: yellow;
+    }
+}

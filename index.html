@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sinh nhật mình</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" href="https://png.pngtree.com/png-vector/20190711/ourlarge/pngtree-happy-birthday-cake-icon-for-your-project-png-image_1541450.jpg" type="image/x-icon" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Thứ 7 ngày 1/4/2023 là sinh nhật tuổi 20 của mình, bạn đến chung vui cùng mình nhé 😍😍😍</h1>
+        <div class="buttons">
+            <button><a href="">Yes</a></button>
+            <button><a href="no.html">No</button>
+        </div>
+    </div>
+    <script>
+        const canvas = document.getElementById("myCanvas");
+        const ctx = canvas.getContext("2d");
+
+        let x = 0;
+
+        function draw() {
+            ctx.fillStyle = "#000000";
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            ctx.fillStyle = "#FFFFFF";
+            ctx.fillRect(x, 0, 50, 50);
+
+            x += 5;
+
+            requestAnimationFrame(draw);
+        }
+
+        draw();
+    </script>
+</body>
+
+</html>
