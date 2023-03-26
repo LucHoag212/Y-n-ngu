@@ -45,29 +45,6 @@ button:hover {
     background-color: #5162f5;
 }
 
-body {
-    background-color: #000000;
-    animation: myAnimation 5s infinite;
-}
-
-@keyframes myAnimation {
-    0% {
-        background-color: #5c5c5c;
-    }
-    25% {
-        background-color: #ff6347;
-    }
-    50% {
-        background-color: #ff0000;
-    }
-    75% {
-        background-color: #f56a51;
-    }
-    100% {
-        background-color: #80136d;
-    }
-}
-
 h1 {
     color: red;
     animation: color-changing 1s ease-in-out infinite;
@@ -82,5 +59,20 @@ h1 {
     }
     100% {
         color: yellow;
+    }
+}
+
+body {
+    background-image: url('https://f24-zpc.zdn.vn/6585142696268566271/837aa7857bc2a79cfed3.jpg');
+    background-size: cover;
+    animation: moveBackground 5s linear infinite;
+}
+
+@keyframes moveBackground {
+    0% {
+        background-position: 0 0;
+    }
+    100% {
+        background-position: 100% 0;
     }
 }
