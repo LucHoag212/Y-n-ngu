@@ -52,13 +52,19 @@ h1 {
 
 @keyframes color-changing {
     0% {
-        color: rgb(253, 252, 252);
+        color: rgb(133, 130, 130);
     }
-    50% {
-        color: orange;
+    25% {
+        color: aqua;
+    }
+    git ad 50% {
+        color: rgb(36, 19, 189);
+    }
+    75% {
+        color: aquamarine;
     }
     100% {
-        color: yellow;
+        color: rgb(0, 195, 255);
     }
 }
 
